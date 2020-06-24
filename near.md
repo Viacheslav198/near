@@ -6,7 +6,7 @@ Selezioniamo il metodo di recupero dell'account, in questo esempio utilizziamo i
 Quindi entriamo nel nostro portafoglio, dove
 saranno disponibili informazioni come: Informazioni generali sul portafoglio, trasferimento e ricezione di token, nonché i nostri dispositivi autorizzati e le chiavi pubbliche.
 
-# Installazione di Near-Shell
+## Installazione di Near-Shell
 Per una maggiore sicurezza, si consiglia l'installazione di Near-Shell su un server separato.
 Aggiorniamo e installiamo tutti i pacchetti necessari:
 ```
@@ -74,7 +74,7 @@ Visualizza le chiavi create:
 ```
 ls ~/.near-credentials/betanet
 ```
-# Installazione e configurazione del nodo NEAR
+## Installazione e configurazione del nodo NEAR
 Se si utilizza un firewall, è necessario aprire la porta 24567 per tutti gli indirizzi IP (0.0.0.0/0)
 
 Aggiorna il nostro sistema:
@@ -148,7 +148,7 @@ Aggiornamento nodo:
 cd nearcore && git pull
 make release
 ```
-# Impostazione di un pool di picchettamento
+## Impostazione di un pool di picchettamento
 Ora puoi iniziare il processo di implementazione di un contratto per un pool di picchettamento.
 
 Imposta Rustup:
