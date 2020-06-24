@@ -9,7 +9,7 @@ git clone -b beta https://github.com/nearprotocol/nearcore.git
 ```
 Dopo aver clonato correttamente il codice, utilizzare il comando `cd` per passare alla directory più recente. Il nome della cartella fornito di seguito è solo per riferimento. Dovrai sostituirlo con il nome corretto con cui è stato creato.
 ```
-cd ~/nearcore
+cd nearcore
 ```
 Una volta nella cartella, verifica di essere effettivamente sul ramo beta
 ```
