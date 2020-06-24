@@ -2,7 +2,7 @@
 Le istruzioni per l'installazione e l'esecuzione in nearup sono disponibili all'indirizzo https://github.com/near/nearup . Seguire i passaggi sul collegamento fornito per l'installazione nearup. Non avviare ancora il nearup . Eseguiremo quasi utilizzando il client nearcore compilato.
 
 # Clone nearcore Beta Branch
-Stakewars II utilizza il ramo beta nearcore per il nodo validatore. Si consiglia di clonare il codice in una cartella identificata dall'ultimo hash di commit (ad esempio se l'ultimo hash di build è 74bfab78, nel comando git utilizzare il nome della cartella come nearcore-74bfab78). È più facile tornare rapidamente tra le versioni di nearcore in caso di problemi con una versione particolare. Per mantenere separate le versioni nearcore (è disponibile una versione settimanale del codice aggiornato nel ramo beta) puoi seguire questi passaggi:
+Stakewars II utilizza il ramo beta nearcore per il nodo validatore. Si consiglia di clonare il codice in una cartella identificata dall'ultimo hash di commit (ad esempio se l'ultimo hash di build è, nel comando git utilizzare il nome della cartella come nearcore). È più facile tornare rapidamente tra le versioni di nearcore in caso di problemi con una versione particolare. Per mantenere separate le versioni nearcore (è disponibile una versione settimanale del codice aggiornato nel ramo beta) puoi seguire questi passaggi:
 
 ```
 git clone -b beta https://github.com/nearprotocol/nearcore.git
@@ -35,7 +35,7 @@ cargo build -p store-validator --release
 # Esegui nearup Utilizzando Client nearcore compilato
 Ora puoi avviare il nodo validatore su betanet usando il seguente comando (cambia il nome della cartella nearcore in base alla versione che vuoi eseguire. Nearcore-613953cf è usato solo come riferimento nel comando seguente).
 ```
-nearup betanet --nodocker --binary-path $HOME/nearcore-74bfab78/target/release
+nearup betanet --nodocker --binary-path $HOME/nearcore/target/release
 ```
 Quando si esegue il comando nearup per la prima volta, viene richiesto un ID account. Nella riga di comando verrà visualizzato un messaggio simile al seguente
 ```
@@ -76,7 +76,7 @@ Immettere l'ID del portafoglio dell'account che riscuoterà la commissione per q
 
 Initial Staking Public Key
 
-Immettere la chiave pubblica generata da nearup al momento dell'avvio. È possibile ottenere la chiave da chiave pubblica campo dall'uscita del `more ~/.near/betanet/validator_key.json | grep 'public_key\|account_id'` sul server (output di esempio fornito di seguito - utilizzare solo il valore dopo ed25519: )
+Immettere la chiave pubblica generata da nearup al momento dell'avvio. È possibile ottenere la chiave da chiave pubblica campo dall'uscita del `more ~/.near/betanet/validator_key.json | grep 'public_key\|account_id'` sul server (output di esempio fornito di seguito - utilizzare solo il valore dopo ed25519:)
 ```
   "account_id": "staking-pool.betanet",
   "public_key": "ed25519:..."
@@ -85,9 +85,7 @@ Frazione della commissione di ricompensa iniziale
 
 Questa è l'età% della commissione che accumulerai sui premi generati per la gestione di questo pool di puntate. Inserisci l'importo che desideri addebitare come commissione.
 
-Dopo aver inserito e ricontrollato i valori, fare clic sul pulsante "Crea pool di picchettamento". Richiede almeno 30 Near nel tuo account per avviare questa transazione. Se il contratto viene creato correttamente, vedrai un messaggio simile a quello che segue nella parte superiore della pagina.
-
-Creato con successo il tuo pool di picchettamento @staking-pool.betanet
+Dopo aver inserito e ricontrollato i valori, fare clic sul pulsante "Crea pool di picchettamento". Richiede almeno 30 Near nel tuo account per avviare questa transazione. Se il contratto viene creato correttamente.
 
 Il pool di puntate appena creato è disponibile per depositi e puntate ora. Se la tua piscina di picchettamento ha abbastanza NEAR per ottenere un posto come validatore, apparirà come un valiadtor in circa 6 ore (2 epoche). Puoi avere un'idea del numero approssimativo di NEAR richiesto per ottenere un set come validatore eseguendo il comando seguente:
 ```
