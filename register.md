@@ -28,8 +28,6 @@ Invieremo 100 token:
 ```
 near call stakingPool_ID deposit '{}' --accountId account_ID --amount 100
 ```
-Token inviati correttamente
-
 Dopo di che devono essere stake:
 ```
 near call stakingPool_ID stake '{"amount": "100000000000000000000000000"}' --accountId account_ID
