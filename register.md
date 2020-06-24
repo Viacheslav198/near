@@ -78,7 +78,7 @@ Invece dell'ultimo elemento `jq` possiamo sostituire `jq .result.current_proposa
 # IMPORTANTE!
 Controlla che `stakingPool_ID` e il tuo nodo utilizzino lo stesso identificatore e `public_key` altrimenti il validatore non produrrà blocchi!
 
-Utilizzando il comando, `near validators current|grep '0%'è` possibile visualizzare i validatori che hanno prodotto 0 blocchi. Ciò significa che saranno espulsi nella prossima era. E i loro delegati perderanno i premi.
+Utilizzando il comando, `near validators current|grep '0%'` è possibile visualizzare i validatori che hanno prodotto 0 blocchi. Ciò significa che saranno espulsi nella prossima era. E i loro delegati perderanno i premi.
 
 Scopri chi verrà espulso nella prossima era `near validators next | grep ‘Kicked’`
 
