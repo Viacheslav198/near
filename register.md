@@ -1,8 +1,8 @@
 # Iscriviti al tuo nodo
 
-Crea un nuovo portafoglio qui: `https://wallet.betanet.near.org/`
+Crea un nuovo portafoglio qui: https://wallet.betanet.near.org/
 
-Per ottenere 75.000 token nel tuo portafoglio, devi registrarti qui: `https://nearprotocol1001.typeform.com/to/TvvOMf` ed effettuare una richiesta per accedere al file `VALIDATORS.md`. Vai qui: `https://github.com/nearprotocol/stakewars/blob/update-validators-list/VALIDATORS.md` e modificalo.
+Per ottenere 75.000 token nel tuo portafoglio, devi registrarti qui: https://nearprotocol1001.typeform.com/to/TvvOMf ed effettuare una richiesta per accedere al file `VALIDATORS.md`. Vai qui: https://github.com/nearprotocol/stakewars/blob/update-validators-list/VALIDATORS.md e modificalo.
 
 # Rimozione delle chiavi di accesso dal contratto
 Ora è necessario rimuovere tutte le chiavi pubbliche dal pool in modo da non avere accesso e bloccare il contratto.
