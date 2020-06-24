@@ -1,7 +1,7 @@
-# Installa vicino
+# Installa nearup
 Le istruzioni per l'installazione e l'esecuzione in nearup sono disponibili all'indirizzo https://github.com/near/nearup . Seguire i passaggi sul collegamento fornito per l'installazione nearup. Non avviare ancora il nearup . Eseguiremo quasi utilizzando il client nearcore compilato.
 
-# Clone vicino a Beta Branch
+# Clone nearcore Beta Branch
 Stakewars II utilizza il ramo beta nearcore per il nodo validatore. Si consiglia di clonare il codice in una cartella identificata dall'ultimo hash di commit (ad esempio se l'ultimo hash di build è 74bfab78, nel comando git utilizzare il nome della cartella come nearcore-74bfab78). È più facile tornare rapidamente tra le versioni di nearcore in caso di problemi con una versione particolare. Per mantenere separate le versioni nearcore (è disponibile una versione settimanale del codice aggiornato nel ramo beta) puoi seguire questi passaggi:
 
 ```
@@ -26,11 +26,11 @@ Questo comando, dopo il completamento con esito positivo, crea le binarie client
 
 La build limitata di cui sopra potrebbe risparmiare un po 'di tempo in quanto evita di seguire le build aggiuntive se si utilizza `make release`(fare riferimento a Makefile in nearcore).
 ```
-	cargo build -p keypair-generator --release
-	cargo build -p genesis-csv-to-json --release
-	cargo build -p near-vm-runner-standalone --release
-	cargo build -p state-viewer --release
-	cargo build -p store-validator --release
+cargo build -p keypair-generator --release
+cargo build -p genesis-csv-to-json --release
+cargo build -p near-vm-runner-standalone --release
+cargo build -p state-viewer --release
+cargo build -p store-validator --release
 ```
 # Esegui nearup Utilizzando Client nearcore compilato
 Ora puoi avviare il nodo validatore su betanet usando il seguente comando (cambia il nome della cartella nearcore in base alla versione che vuoi eseguire. Nearcore-613953cf è usato solo come riferimento nel comando seguente).
