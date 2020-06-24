@@ -180,12 +180,12 @@ near deploy --accountId=stakingPool_ID --wasmFile=initial-contracts/staking-pool
 percorsi di `staking_pool.wasm` possono variare!
 
 Inizializziamo l'account del pool di picchettamento:
-
-near call stakingPool_ID new '{"owner_id": "account_ID", "stake_public_key": "CE3QAXyVLeScmY9YeEyR3Tw9yXfjBPzFLzroTranYtVb", "reward_fee_fraction": {"numerator": 10, "denominator": 100}}' --account_id stakingPool_ID
-
+```
+near call stakingPool_ID new '{"owner_id": "account_ID", "stake_public_key": "My_stake_public_key", "reward_fee_fraction": {"numerator": 10, "denominator": 100}}' --account_id stakingPool_ID
+```
 `stakingPool_ID` - account di pool di account
 `account_id_ID` - sostituiamo l' account
-`stake_public_key` principale con quello che abbiamo scritto in precedenza, è possibile registrare senza prefisso `ed25519:`, è possibile utilizzarlo
+`"My_stake_public_key"` - principale con quello che abbiamo scritto in precedenza, è possibile registrare senza prefisso `ed25519:`, è possibile utilizzarlo
 
 Siamo stati respinti perché non abbiamo abbastanza NEAR
 
