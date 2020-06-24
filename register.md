@@ -4,7 +4,7 @@ Crea un nuovo portafoglio qui: https://wallet.betanet.near.org/
 
 Per ottenere 75.000 token nel tuo portafoglio, devi registrarti qui: https://nearprotocol1001.typeform.com/to/TvvOMf ed effettuare una richiesta per accedere al file `VALIDATORS.md`. Vai qui: https://github.com/nearprotocol/stakewars/blob/update-validators-list/VALIDATORS.md e modificalo.
 
-# Rimozione delle chiavi di accesso dal contratto
+## Rimozione delle chiavi di accesso dal contratto
 Ora è necessario rimuovere tutte le chiavi pubbliche dal pool in modo da non avere accesso e bloccare il contratto.
 
 Esaminiamo tutte le chiavi di accesso disponibili:
@@ -18,7 +18,7 @@ near delete-key --accessKey <PUBKEY> --accountId stakingPoolID
 `<PUBKEY>` - la chiave che abbiamo appreso in precedenza
 `stakingPoolID` - pool di picchettamento dell'account
 
-# Delega di token al contratto
+## Delega di token al contratto
 Per prima cosa devi inviare i token al nostro contratto di picchettamento della piscina.
 
 `stakingPool_ID` - pool a cui inviamo token
@@ -32,7 +32,7 @@ Dopo di che devono essere stake:
 ```
 near call stakingPool_ID stake '{"amount": "100000000000000000000000000"}' --accountId account_ID
 ```
-# Verifica delle impostazioni corrette del pool
+## Verifica delle impostazioni corrette del pool
 Per cominciare, verificheremo che i nostri token sono realmente picchettati. Vai all'esploratore `https://explorer.betanet.near.org/` e controlla
 
 Controlliamo che saremo inclusi nell'elenco dei validatori:
@@ -75,7 +75,7 @@ near validators next | grep 'Kicked'
 
 Invece dell'ultimo elemento `jq` possiamo sostituire `jq .result.current_proposals` e vedere le transazioni di picchettamento in sospeso:
 
-# IMPORTANTE!
+## IMPORTANTE!
 Controlla che `stakingPool_ID` e il tuo nodo utilizzino lo stesso identificatore e `public_key` altrimenti il validatore non produrrà blocchi!
 
 Utilizzando il comando, `near validators current|grep '0%'` è possibile visualizzare i validatori che hanno prodotto 0 blocchi. Ciò significa che saranno espulsi nella prossima era. E i loro delegati perderanno i premi.
