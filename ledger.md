@@ -49,9 +49,9 @@ Initialize a new Ledger device (настройка нового кошелька
 3. В открывшейся странице в нижнем левом углу, рядом с Ledger Hardware Wallet нажмите ENABLE
 ![pic](https://github.com/Viacheslav198/images/blob/master/17.png?raw=false)
 3. Входим в приложение NEAR на нашем Ledger Nano S 
-![pic](https://github.com/Viacheslav198/images/blob/master/19.png?raw=false)
+![pic](https://github.com/Viacheslav198/images/blob/master/19.jpg?raw=false)
 4. Нажимаем Connect to Ledger на  веб странице
 ![pic](https://github.com/Viacheslav198/images/blob/master/18.png?raw=false)
 5. Далее потверждаем Public key нажав на правую кнопку устройства
-![pic](https://github.com/Viacheslav198/images/blob/master/20.png?raw=false)
+![pic](https://github.com/Viacheslav198/images/blob/master/20.jpg?raw=false)
 5. Наш Ledger Nano S  успешно авторизован в аккаунте Near
