@@ -1,6 +1,6 @@
 # Подключение НЕАР Кошелька в Ledger Nano S
 
-Совместимость desktop: Windows 8+, macOS 10.10+, Linux. 64-bits desktop computers excluding ARM processors.
+Приложение Ledger Live имеет совместимость с Windows 8+, macOS 10.10+, Linux. 64-bits desktop computers excluding ARM processors.
 
 ## Настройка нового аппаратного кошелька Ledger Nano S
 1. Заходим на страницу с приложением https://www.ledger.com/ledger-live/download/
@@ -15,7 +15,7 @@
 7. В появившемся списке, нужно выбрать что вы хотите сделать:
 Initialize a new Ledger device (настройка нового кошелька Ledger)
 ![pic](https://github.com/Viacheslav198/images/blob/master/4.png?raw=false)
-8. Далее нужно выбрать ваш кошелек Ledger Nano S и нажать синюю кнопку “Continue”
+8. Далее нужно выбрать ваш кошелек Ledger Nano S и нажать “Continue”
 ![pic](https://github.com/Viacheslav198/images/blob/master/5.png?raw=false)
 9. Далее нужно подключить ваш кошелек ledger nano s к компьютеру с помощью кабеля который входит в комплект. В сообщении на экране написано, что нужно после подключения кошелька к компьютеру выбрать “Configure a new device”, и придумать ПИН код от 4 до 8 цифр, чтобы подтвердить ПИН код нужно нажать на “галочку”. Также на этом экране написано, что с помощью ПИН кода вы будете заходить в сам кошелек, что 8 цифр для ПИН кода поможет максимально обезопасить кошелек и самое важное “НИКОГДА НЕ ИСПОЛЬЗУЙТЕ КОШЕЛЕК ЕСЛИ В КОРОБКЕ УЖЕ НАПИСАН ПИН КОД ИЛИ ПРИВАТНАЯ ФРАЗА 24 СЛОВА”, ПИН код придумываете только вы, а приватный ключ из 24 слов, кошелек генерирует автоматически при первой настройке кошелька.
 ![pic](https://github.com/Viacheslav198/images/blob/master/6.png?raw=false)
@@ -54,4 +54,6 @@ Initialize a new Ledger device (настройка нового кошелька
 ![pic](https://github.com/Viacheslav198/images/blob/master/18.png?raw=false)
 5. Далее потверждаем Public key нажав на правую кнопку устройства
 ![pic](https://github.com/Viacheslav198/images/blob/master/20.jpg?raw=false)
-5. Наш Ledger Nano S  успешно авторизован в аккаунте Near
+5. Ledger Nano S  успешно подключен к нашему аккаунту Near 
+Рекомендуется удалить все существующие ключи, так как поддержка нескольких ключей повышает уязвимость вашего аккаунта.
+![pic](https://github.com/Viacheslav198/images/blob/master/21.png?raw=false)
