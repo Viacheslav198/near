@@ -1,4 +1,4 @@
-# Использование NEAR Кошелька в Ledger Nano S
+# Использование приложения NEAR в аппаратном кошельке Ledger Nano S
 
 Приложение Ledger Live имеет совместимость с Windows 8+, macOS 10.10+, Linux. 64-bits desktop computers excluding ARM processors.
 
