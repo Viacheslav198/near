@@ -57,7 +57,7 @@ Initialize a new Ledger device (настройка нового кошелька
 4. В каталоге приложений находим NEAR и устанавливаем его
 ![pic](https://github.com/Viacheslav198/images/blob/master/16.png?raw=false)
 
-## Подключение к кошелька NEAR с помощью Ledger Nano S 
+## Подключение к аккаунту NEAR с помощью Ledger Nano S 
 
 1. Заходим в кошелек NEAR
 2. В правом верхнем углу выбераем "profile" 
