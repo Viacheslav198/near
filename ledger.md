@@ -70,7 +70,7 @@ Initialize a new Ledger device (настройка нового кошелька
 5. Нажимаем Connect to Ledger на  веб странице
 ![pic](https://github.com/Viacheslav198/images/blob/master/18.png?raw=false)
 
-6. Далее потверждаем Public key нажав на правую кнопку устройства
+6. Далее подтверждаем Public key нажав на правую кнопку устройства
 ![pic](https://github.com/Viacheslav198/images/blob/master/20.jpg?raw=false)
 
 7. Ledger Nano S  успешно подключен к нашему аккаунту NEAR 
