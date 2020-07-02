@@ -14,10 +14,10 @@
 
 5. Откроется интерфейс Ledger Live
 
-6. Нажмите “Get started”.
+6. Нажимаем “Get started”.
 ![pic](https://github.com/Viacheslav198/images/blob/master/3.png?raw=false)
 
-7. В появившемся списке, нужно выбрать что вы хотите сделать:
+7. В появившемся списке выбираем:
 Initialize a new Ledger device (настройка нового кошелька Ledger)
 ![pic](https://github.com/Viacheslav198/images/blob/master/4.png?raw=false)
 
