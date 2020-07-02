@@ -60,7 +60,7 @@ Initialize a new Ledger device (настройка нового кошелька
 ## Подключение к аккаунту NEAR с помощью Ledger Nano S 
 
 1. Заходим в кошелек NEAR
-2. В правом верхнем углу выбераем "profile" 
+2. В правом верхнем углу выбераем "Profile" 
 3. В открывшейся странице в нижнем левом углу, рядом с Ledger Hardware Wallet нажимаем "ENABLE"
 ![pic](https://github.com/Viacheslav198/images/blob/master/17.png?raw=false)
 
