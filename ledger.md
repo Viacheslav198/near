@@ -44,7 +44,7 @@ Initialize a new Ledger device (настройка нового кошелька
 14. Вот и вы и настроили приложение Ledger Live, нажмите кнопку “Open Ledger Live”.
 ![pic](https://github.com/Viacheslav198/images/blob/master/13.png?raw=false)
 
-## Добавление кошелька NEAR в Ledger Nano S
+## Добавление приложения NEAR в Ledger Nano S
 
 1. Нажимаем шестеренку в правом верхнем углу 
 ![pic](https://github.com/Viacheslav198/images/blob/master/14.png?raw=false)
