@@ -18,7 +18,7 @@ Ledger Live is compatible with Windows 8+, macOS 10.10+, Linux. 64-bits desktop 
 ![pic](https://github.com/Viacheslav198/images/blob/master/3.png?raw=false)
 
 7. In the list that appears, select:
-Initialize a new Ledger device (setting up a new Ledger wallet)
+Initialize a new Ledger device
 ![pic](https://github.com/Viacheslav198/images/blob/master/4.png?raw=false)
 
 8. Select your Ledger Nano S wallet and click “Continue”
