@@ -74,5 +74,5 @@ Initialize a new Ledger device (настройка нового кошелька
 ![pic](https://github.com/Viacheslav198/images/blob/master/20.jpg?raw=false)
 
 7. Ledger Nano S  успешно подключен к нашему аккаунту NEAR 
-Рекомендуется удалить все существующие ключи, так как поддержка нескольких ключей повышает уязвимость вашего аккаунта.
 ![pic](https://github.com/Viacheslav198/images/blob/master/21.png?raw=false)
+Рекомендуется удалить все существующие ключи, так как поддержка нескольких ключей повышает уязвимость вашего аккаунта.
