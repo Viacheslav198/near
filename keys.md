@@ -49,11 +49,11 @@ near login
 
 ## 2.Резервное копирование ключей
 
-Создаем папку Backup и копируем туда папку .nano-credentials
+Создаем папку Backup и копируем туда папку .near-credentials
 
 ```
 mkdir backup
-sudo cp -r ~/.nano-credentials ~/backup
+sudo cp -r ~/.near-credentials ~/backup
 ```
 Папка скопирована:
 
