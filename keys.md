@@ -1,10 +1,10 @@
 # Генерация ключей и их резервное копирование
 
-Создаем учетную запись кошелька https://wallet.betanet.near.org/
-
 ## 1. Генерация ключей
 
-Для начала нам понадобится установить Node.js
+Создаем учетную запись кошелька https://wallet.betanet.near.org/
+ 
+Устанавливаем Node.js
 
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
