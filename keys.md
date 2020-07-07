@@ -37,7 +37,7 @@ near login
 
 ![pic](https://github.com/Viacheslav198/images/blob/master/23.png?raw=false)
 
-Вводим имя вашего аккаунта и подтверждаем «CONFIRM»
+Вводим имя вашего аккаунта и подтверждаем
 
 ![pic](https://github.com/Viacheslav198/images/blob/master/24.png?raw=false)
 
