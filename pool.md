@@ -27,11 +27,11 @@ near call stakingPool_ID ping '{}' --accountId account_ID
 
 Для автономного обновления награды рекомендую создать скрипт:
 
-1.Открываем файл 
+1. Открываем файл 
 ```
 nano nearping.sh
 ```
-вставляем в этот файл:
+2. Вставляем в этот файл:
 ```
 #!/bin/bash
 ### usage: near-ping.sh pool_id account_id timeout_between_pings
@@ -59,11 +59,12 @@ done
 ```
 `$staking_account ping`,  `$calling_account` заменяем данные на свои и выставляем время через которое будет происходить пинг контракта
 
-Далее сохраняем файл и запускаем:
+3. Далее сохраняем файл и запускаем:
 
 ```
 ./nearping.sh
 ```
+![pic](https://github.com/Viacheslav198/images/blob/master/27.png?raw=false)
 
 Скрипт делает попытки пинга до тех пор, пока не получит положительный ответ
 
