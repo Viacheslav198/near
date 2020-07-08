@@ -17,7 +17,6 @@ near call stakingPool_ID update_staking_key ‘{“stake_public_key”:”Public
 ```
 curl -d ‘{“jsonrpc”: “2.0”, “method”: “validators”, “id”: “dontcare”, “params”: [null]}’ -H ‘Content-Type: application/json’ https://rpc.betanet.near.org | jq -c ‘.result.current_proposals[] | select(.account_id | contains (“account_ID”))’
 ```
-Не забудьте заменить account_ID!
 
 Обновить текущую награду:
 ```
