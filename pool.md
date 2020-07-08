@@ -1,4 +1,4 @@
-## Управление стейкинг пулом в сети Near
+# Управление стейкинг пулом в сети Near
 
 В этой статье мы рассмотрим, как можно изменить открытый ключ валидатора, обновить текущую награду, и другие методы просмотра нашего пула.
 
@@ -41,35 +41,36 @@ near call stakingPool_ID withdraw '{"amount": "100000000000000000000000000"}' --
 ```
 Остальные методы просмотра:
 
-# Общий баланс токенов:
+## Общий баланс токенов:
 ```
 near view stakingPool_ID get_account_total_balance '{"account_id": "account_ID"}'
 ```
-# Узнать баланс застейканых токенов:
+
+## Узнать баланс застейканых токенов:
 ```
 near view stakingPool_ID get_account_staked_balance '{"account_id": "account_ID"}'
 ```
-# Баланс токенов, которые можно анстейкнуть:
+## Баланс токенов, которые можно анстейкнуть:
 ```
 near view stakingPool_ID get_account_unstaked_balance '{"account_id": "account_ID"}'
 ```
-# Просмотреть доступные токкены для вывода:
+## Просмотреть доступные токкены для вывода:
 ```
 near view stakingPool_ID is_account_unstaked_balance_available '{"account_id": "account_ID"}'
 ```
-# Общий баланс стейкнутых токенов контракт пула:
+## Общий баланс стейкнутых токенов контракт пула:
 ```
 near view stakingPool_ID get_total_staked_balance '{}'
 ```
-# Создатель стейкинг пула:
+## Создатель стейкинг пула:
 ```
 near view stakingPool_ID get_owner_id '{}'
 ```
-# Текущая комиссия пула:
+## Текущая комиссия пула:
 ```
 near view stakingPool_ID get_reward_fee_fraction '{}'
 ```
-# Просмотреть ключ стейкинг пула:
+## Просмотреть ключ стейкинг пула:
 ```
 near view stakingPool_ID get_staking_key '{}'
 ```
